@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="author" content="Sudipta Mrong"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>CarHub | Call & Relex</title>
+	<!-- Font Awesome Css -->
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<!-- AOS Css -->
+	<link rel="stylesheet" href="css/aos.css">
+	<!-- Swiper Css -->
+	<link rel="stylesheet" href="css/swiper-bundle.min.css">
+	<!-- Bootstrap Css -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<!-- Animation Css -->
+	<link rel="stylesheet" type="text/css" href="css/animate.min.css">
+	<!-- Custom Style Css -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!-- Custom Media Css -->
+	<link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+	<!-- Header Start -->
+	<header class="header" id="header">
+		<nav class="autohide navbar navbar-expand-lg navbar-light fixed-top">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="index.html">
+					<img class="navbrand-img-1" src="images/logo.png" alt="Car Hub">
+					<img class="navbrand-img-2" src="images/logo-bottom.png" alt="Car Hub">
+				</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<img src="images/toggler-icon.png" alt="Toggler Icon" class="toggle-icon">
+				</button>
+				<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+					<ul class="navbar-nav text-uppercase">
+					<li class="nav-item">
+						<a class="nav-link" aria-current="page" href="index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#About">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#Tariffs">Tariffs</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#Features">Features</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#Download">Download</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#Contacts">Contacts</a>
+					</li>
+					</ul>
+				</div>
+			</div>
+		  </nav>
+	</header>
+	<!-- Header End -->
+
+	<!-- Banner Start -->
+	<div class="banner" id="Banner">
+		<div class="banner-overlay">
+			<div class="container">
+				<!-- Banner Content -->
+				<div class="banner-content text-center">
+					<h2 class="bc-h2 text-uppercase animate__animated animate__bounce">Book Cab Now</h2>
+					<h1 class="bc-h1 animate__animated animate__swing">+123 4567 8900</h1>
+				</div>
+
+				<!-- Banner Car Img -->
+				<div class="banner-img">
+					<img class="banner-car-img img-fluid" src="images/hero-car-img.png" alt="Car Hub">
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Banner End -->
+
+	<!-- About Start -->
+	<div class="about" id="About">
+		<div class="container">
+			<div class="row">
+				<!-- About Content -->
+				<div class="col-lg-6">
+					<div class="about-content" data-aos="fade-right">
+						<h2 class="about-content-h2 text-uppercase">Best In City</h2>
+						<h1 class="about-content-h3 text-uppercase">Trusted Cab Servies in New York</h1>
+						<p class="about-content-p">Quisque sollicitudin feugiat risus, eu posuere ex euismod eu. Phasellus hendrerit, massa efficitur dapibus pulvinar, sapien eros sodales ante, euismod aliquet nulla metus a mauris.Quisque sollicitudin feugiat risus, eu posuere ex euismod eu. Phasellus hendrerit, massa efficitur dapibus pulvinar, sapien eros sodales ante, euismod aliquet nulla metus a mauris.</p>
+						<button class="read-more text-uppercase" data-aos="zoom-in-up">Read More</button>
+					</div>
+				</div>
+				<!-- Booking Form  -->
+				<div class="col-lg-6">
+					<div class="booking-form mx-auto float-md-none float-lg-end" data-aos="fade-left">
+						<form action="#">
+							<!-- Form Header -->
+							<h1 class="form-h1 text-uppercase">Book A <span class="form-span">Cab</span></h1>
+							<!-- Form -->
+							<div class="form">
+								<div class="row needs-validation">
+									<div class="col-sm-6 col-lg-6">
+										<input type="text" class="form-control name " id="Name" placeholder="Name" required>
+									</div>
+									<div class="col-sm-6 col-lg-6">
+										<input type="text" class="form-control number " id="Number" placeholder="Number" required>
+									</div>
+									<div class="col-sm-6 col-lg-6">
+										<input type="text" class="form-control when " id="When" placeholder="When" required>
+									</div>
+									<div class="col-sm-6 col-lg-6">
+										<input type="text" class="form-control time " id="Time" placeholder="Time" required>
+									</div>
+									<div class="col-sm-6 col-lg-6">
+										<input type="text" class="form-control start " id="Start" placeholder="Start" required>
+									</div>
+									<div class="col-sm-6 col-lg-6">
+										<input type="text" class="form-control end " id="End" placeholder="End" required>
+									</div>
+									<div class="col-lg-12">
+										<select class="form-select" id="Choose-Vehicle" aria-describedby="Choose-Vehicle" required>
+											<option selected disabled value="">Choose Vehicle</option>
+											<option>Toyota Taxi</option>
+											<option>BMW Taxi</option>
+											<option>Audi Taxi</option>
+											<option>Tesla Taxi</option>
+										</select>
+									</div>
+									<!-- Booking Form Submit Button -->
+									<div class="col-lg-12 d-grid">
+										<button class="booking-form-submit text-uppercase" type="submit">Submit</button>
+									</div>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- About End -->
+
+	<!-- Tariffs Start -->
+	<div class="tariffs" id="Tariffs">
+		<div class="container">
+			<!-- Heading Top -->
+			<div class="heading text-center text-uppercase" data-aos="fade-down">
+				<h2 class="heading-h2">Our</h2>
+				<h1 class="heading-h1">Tariffs</h1>
+			</div>
+			<!-- Tariffs Plan -->
+			<div class="tariffs-content">
+				<div class="row">
+					<!-- Tariff One -->
+					<div class="col-sm-6 col-lg-4 text-center">
+						<div class="tariffs-box" data-aos="fade-right">
+							<img class="tariffs-img img-fluid" src="images/tariff-img.png" alt="Our Tariffs">
+							<div class="tariffs-box-content">
+								<h1 class="tariffs-content-h1 text-uppercase">Economy Class</h1>
+								<p class="tariffs-content-p">Quisque sollicitudin feugiat risus, eu posuere ex euismod eu. Phasellus hendrerit, massa efficitur.</p>
+								<h2 class="tariffs-content-h2 text-uppercase">$1,5/MI</h2>
+								<button class="read-more common-btn text-uppercase">Read More</button>
+							</div>
+							<div class="box-hover-icon">
+								<i class="fa fa-star star-hover" aria-hidden="true"></i>
+							</div>
+						</div>
+					</div>
+					<!-- Tariff Two -->
+					<div class="col-sm-6 col-lg-4 tariff-mt-2 text-center">
+						<div class="tariffs-box" data-aos="fade-up">
+							<img class="tariffs-img img-fluid" src="images/tariff-img.png" alt="Our Tariffs">
+							<div class="tariffs-box-content">
+								<h1 class="tariffs-content-h1 text-uppercase">Standard Class</h1>
+								<p class="tariffs-content-p">Quisque sollicitudin feugiat risus, eu posuere ex euismod eu. Phasellus hendrerit, massa efficitur.</p>
+								<h2 class="tariffs-content-h2 text-uppercase">$1,5/MI</h2>
+								<button class="read-more common-btn text-uppercase">Read More</button>
+							</div>
+							<div class="box-hover-icon">
+								<i class="fa fa-star star-hover" aria-hidden="true"></i>
+							</div>
+						</div>
+					</div>
+					<!-- Tariff Three -->
+					<div class="col-sm-6 col-lg-4 tariff-mt-3 text-center">
+						<div class="tariffs-box" data-aos="fade-left">
+							<img class="tariffs-img img-fluid" src="images/tariff-img.png" alt="Our Tariffs">
+							<div class="tariffs-box-content">
+								<h1 class="tariffs-content-h1 text-uppercase">Business Class</h1>
+								<p class="tariffs-content-p">Quisque sollicitudin feugiat risus, eu posuere ex euismod eu. Phasellus hendrerit, massa efficitur.</p>
+								<h2 class="tariffs-content-h2 text-uppercase">$1,5/MI</h2>
+								<button class="read-more common-btn text-uppercase">Read More</button>
+							</div>
+							<div class="box-hover-icon">
+								<i class="fa fa-star star-hover" aria-hidden="true"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Tariffs End -->
+
+
+	<!-- Features Start -->
+		<div class="features" id="Features">
+			<div class="container">
+				<!-- Heading Top -->
+				<div class="heading text-center text-uppercase" data-aos="fade-down">
+					<h2 class="heading-h2">We do Best</h2>
+					<h1 class="heading-h1 custom-h1">Than You Wish</h1>
+				</div>
+				<!-- Features Content -->
+				<div class="features-content">
+					<div class="row">
+						<!-- Feature Box One -->
+						<div class="col-md-6 col-lg-6">
+							<div class="feature-box" data-aos="fade-right">
+								<div class="feature-box-left">
+									<i class="fa fa-star features-box-i" aria-hidden="true"></i>
+								</div>
+								<div class="feature-box-right">
+									<h1 class="features-box-h1">Home Pickup</h1>
+									<p class="features-box-p">Quisque sollicitudin feugiat risus, eu posuere ex euismod eu. Phasellus hendrerit, massa efficitur.</p>
+								</div>
+							</div>
+						</div>
+						<!-- Feature Box Two -->
+						<div class="col-md-6 col-lg-6">
+							<div class="feature-box box-mt-2" data-aos="fade-left">
+								<div class="feature-box-left">
+									<i class="fa fa-hourglass-end features-box-i" aria-hidden="true"></i>
+								</div>
+								<div class="feature-box-right">
+									<h1 class="features-box-h1">Fast booking</h1>
+									<p class="features-box-p">Quisque sollicitudin feugiat risus, eu posuere ex euismod eu. Phasellus hendrerit, massa efficitur.</p>
+								</div>
+							</div>
+						</div>
+						<!-- Feature Box Three -->
+						<div class="col-md-6 col-lg-6">
+							<div class="feature-box box-mt-3" data-aos="fade-left">
+								<div class="feature-box-left">
+									<i class="fa fa-usd features-box-i" aria-hidden="true"></i>
+								</div>
+								<div class="feature-box-right">
+									<h1 class="features-box-h1">Bonuses for ride</h1>
+									<p class="features-box-p">Quisque sollicitudin feugiat risus, eu posuere ex euismod eu. Phasellus hendrerit, massa efficitur.</p>
+								</div>
+							</div>
+						</div>
+						<!-- Feature Box Four -->
+						<div class="col-md-6 col-lg-6">
+							<div class="feature-box box-mt-4" data-aos="fade-right">
+								<div class="feature-box-left">
+									<i class="fa fa-map-marker features-box-i" aria-hidden="true"></i>
+								</div>
+								<div class="feature-box-right">
+									<h1 class="features-box-h1">GPS searching</h1>
+									<p class="features-box-p">Quisque sollicitudin feugiat risus, eu posuere ex euismod eu. Phasellus hendrerit, massa efficitur.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Read More Btn -->
+					<div class="feature-button text-center">
+						<button class="read-more feature-btn text-uppercase" data-aos="zoom-in-up">Read More</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	<!-- Features End -->
+
+
+	<!-- Download Start -->
+	<div class="download" id="Download">
+		<div class="container">
+			<!-- Heading Top -->
+			<div class="heading text-center text-uppercase" data-aos="fade-down">
+				<h2 class="heading-h2">Download</h2>
+				<h1 class="heading-h1">Best Cab Servies</h1>
+			</div>
+			<!-- Download Content -->
+			<div class="download-content">
+				<div class="row">
+					<div class="col-md-6 col-lg-6">
+						<!-- Download Details -->
+						<div class="download-details" data-aos="fade-right">
+							<h2 class="download-details-h2">Downlaod the Cab voucher app free!
+								Get Exciting New Offers</h2>
+							<p class="download-details-p">Quisque sollicitudin feugiat risus, eu posuere ex euismod eu. Phasellus hendrerit, massa efficitur.</p>
+						</div>
+						<!-- Download Links -->
+						<div class="download-link" data-aos="zoom-in-up">
+							<a href="#">
+								<img class="download-link-img link-img-mr img-fluid" src="images/google-play.png" alt="Google Play">
+							</a>
+							<a href="#">
+								<img class="download-link-img img-fluid" src="images/apple-store.png" alt="Apple Store">
+							</a>
+						</div>
+					</div>
+					<!-- Right Phone Img -->
+					<div class="col-md-6 col-lg-6 d-md-block d-none" data-aos="fade-left">
+						<div class="phone text-center">
+							<img class="phone-img img-fluid" src="images/phone.png" alt="Phone">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Download End -->
+
+
+	<!-- Testimonial Start -->
+	<div class="testimonial" id="Testimonial">
+		<div class="container">
+			<!-- Heading Top -->
+			<div class="heading text-center text-uppercase" data-aos="fade-down">
+				<h2 class="heading-h2">We do Best</h2>
+				<h1 class="heading-h1 custom-h1">Than You Wish</h1>
+			</div>
+		</div>
+		<!-- Testimonial Content -->
+		<div class="testimonial-content" data-aos="fade-left">
+			<div class="swiper-container">
+				<div class="swiper-wrapper">
+					<!-- Slide 1 -->
+					<div class="swiper-slide">
+						<p class="swiper-slide-p">Quisque sollicitudin feugiat risus, eu posuere ex euismod eu. Phasellus hendrerit, massa efficitur.Quisque sollicitudin feugiat risus.</p>
+						<div class="profile d-flex">
+							<div class="profile-picture">
+								<img class="profile-img img-fluid" src="images/profile-img.png" alt="Profile Img">
+							</div>
+							<div class="profile-name">
+								<h2 class="profile-name-h1 text-uppercase">John Doe</h2>
+								<h3 class="profile-name-h3 text-uppercase">Business Man</h3>
+							</div>
+						</div>
+					</div>
+					<!-- Slide 2 -->
+					<div class="swiper-slide">
+						<p class="swiper-slide-p">Quisque sollicitudin feugiat risus, eu posuere ex euismod eu. Phasellus hendrerit, massa efficitur.Quisque sollicitudin feugiat risus.</p>
+						<div class="profile d-flex">
+							<div class="profile-picture">
+								<img class="profile-img img-fluid" src="images/profile-img.png" alt="Profile Img">
+							</div>
+							<div class="profile-name">
+								<h2 class="profile-name-h1 text-uppercase">John Doe</h2>
+								<h3 class="profile-name-h3 text-uppercase">Business Man</h3>
+							</div>
+						</div>
+					</div>
+					<!-- Slide 3 -->
+					<div class="swiper-slide">
+						<p class="swiper-slide-p">Quisque sollicitudin feugiat risus, eu posuere ex euismod eu. Phasellus hendrerit, massa efficitur.Quisque sollicitudin feugiat risus.</p>
+						<div class="profile d-flex">
+							<div class="profile-picture">
+								<img class="profile-img img-fluid" src="images/profile-img.png" alt="Profile Img">
+							</div>
+							<div class="profile-name">
+								<h2 class="profile-name-h1 text-uppercase">John Doe</h2>
+								<h3 class="profile-name-h3 text-uppercase">Business Man</h3>
+							</div>
+						</div>
+					</div>
+					<!-- Slide 4 -->
+					<div class="swiper-slide">
+						<p class="swiper-slide-p">Quisque sollicitudin feugiat risus, eu posuere ex euismod eu. Phasellus hendrerit, massa efficitur.Quisque sollicitudin feugiat risus.</p>
+						<div class="profile d-flex">
+							<div class="profile-picture">
+								<img class="profile-img img-fluid" src="images/profile-img.png" alt="Profile Img">
+							</div>
+							<div class="profile-name">
+								<h2 class="profile-name-h1 text-uppercase">John Doe</h2>
+								<h3 class="profile-name-h3 text-uppercase">Business Man</h3>
+							</div>
+						</div>
+					</div>
+					<!-- Slide 5 -->
+					<div class="swiper-slide">
+						<p class="swiper-slide-p">Quisque sollicitudin feugiat risus, eu posuere ex euismod eu. Phasellus hendrerit, massa efficitur.Quisque sollicitudin feugiat risus.</p>
+						<div class="profile d-flex">
+							<div class="profile-picture">
+								<img class="profile-img img-fluid" src="images/profile-img.png" alt="Profile Img">
+							</div>
+							<div class="profile-name">
+								<h2 class="profile-name-h1 text-uppercase">John Doe</h2>
+								<h3 class="profile-name-h3 text-uppercase">Business Man</h3>
+							</div>
+						</div>
+					</div>
+					<!-- Slide 6 -->
+					<div class="swiper-slide">
+						<p class="swiper-slide-p">Quisque sollicitudin feugiat risus, eu posuere ex euismod eu. Phasellus hendrerit, massa efficitur.Quisque sollicitudin feugiat risus.</p>
+						<div class="profile d-flex">
+							<div class="profile-picture">
+								<img class="profile-img img-fluid" src="images/profile-img.png" alt="Profile Img">
+							</div>
+							<div class="profile-name">
+								<h2 class="profile-name-h1 text-uppercase">John Doe</h2>
+								<h3 class="profile-name-h3 text-uppercase">Business Man</h3>
+							</div>
+						</div>
+					</div>
+					<!-- Slide 7 -->
+					<div class="swiper-slide">
+						<p class="swiper-slide-p">Quisque sollicitudin feugiat risus, eu posuere ex euismod eu. Phasellus hendrerit, massa efficitur.Quisque sollicitudin feugiat risus.</p>
+						<div class="profile d-flex">
+							<div class="profile-picture">
+								<img class="profile-img img-fluid" src="images/profile-img.png" alt="Profile Img">
+							</div>
+							<div class="profile-name">
+								<h2 class="profile-name-h1 text-uppercase">John Doe</h2>
+								<h3 class="profile-name-h3 text-uppercase">Business Man</h3>
+							</div>
+						</div>
+					</div>
+					<!-- Slide 8 -->
+					<div class="swiper-slide">
+						<p class="swiper-slide-p">Quisque sollicitudin feugiat risus, eu posuere ex euismod eu. Phasellus hendrerit, massa efficitur.Quisque sollicitudin feugiat risus.</p>
+						<div class="profile d-flex">
+							<div class="profile-picture">
+								<img class="profile-img img-fluid" src="images/profile-img.png" alt="Profile Img">
+							</div>
+							<div class="profile-name">
+								<h2 class="profile-name-h1 text-uppercase">John Doe</h2>
+								<h3 class="profile-name-h3 text-uppercase">Business Man</h3>
+							</div>
+						</div>
+					</div>
+					<!-- Slide 9 -->
+					<div class="swiper-slide">
+						<p class="swiper-slide-p">Quisque sollicitudin feugiat risus, eu posuere ex euismod eu. Phasellus hendrerit, massa efficitur.Quisque sollicitudin feugiat risus.</p>
+						<div class="profile d-flex">
+							<div class="profile-picture">
+								<img class="profile-img img-fluid" src="images/profile-img.png" alt="Profile Img">
+							</div>
+							<div class="profile-name">
+								<h2 class="profile-name-h1 text-uppercase">John Doe</h2>
+								<h3 class="profile-name-h3 text-uppercase">Business Man</h3>
+							</div>
+						</div>
+					</div>
+					<!-- Slide 10 -->
+					<div class="swiper-slide">
+						<p class="swiper-slide-p">Quisque sollicitudin feugiat risus, eu posuere ex euismod eu. Phasellus hendrerit, massa efficitur.Quisque sollicitudin feugiat risus.</p>
+						<div class="profile d-flex">
+							<div class="profile-picture">
+								<img class="profile-img img-fluid" src="images/profile-img.png" alt="Profile Img">
+							</div>
+							<div class="profile-name">
+								<h2 class="profile-name-h1 text-uppercase">John Doe</h2>
+								<h3 class="profile-name-h3 text-uppercase">Business Man</h3>
+							</div>
+						</div>
+					</div>
+				</div>
+			  </div>
+		</div>
+	</div>
+	<!-- Testimonial End -->
+
+
+	<!-- Contacts Start -->
+	<div class="contacts" id="Contacts">
+		<div class="container">
+			<!-- Contact Info -->
+			<div class="contact-info text-center" data-aos="zoom-out">
+				<h2 class="contact-info-h2 text-uppercase">We are Ready to Take Your Call 24 Hours, 7 Days!</h2>
+				<h1 class="contact-info-h1">+123 4567 8900</h1>
+			</div>
+		</div>
+	</div>
+	<!-- Contacts End -->
+
+
+	<!-- Footer Start -->
+	<footer class="footer">
+		<div class="container">
+			<!-- Footer Content -->
+			<div class="footer-content">
+				<div class="row">
+					<!-- Footer About -->
+					<div class="col-md-6 col-lg-4">
+						<div class="footer-about" data-aos="fade-right">
+							<h1 class="footer-about-h1 f-common-h1 text-uppercase">About cab Hub</h1>
+							<p class="footer-about-p f-common-mt">Quisque sollicitudin feugiat risus, eu posuere ex euismod eu. Phasellus hendrerit, massa efficitur.Quisque sollicitudin feugiat risus, eu posuere ex euismod eu.</p>
+							<div class="social-link">
+								<a href="#"><i class="fa fa-facebook social-icon" aria-hidden="true"></i></a>
+								<a href="#"><i class="fa fa-google-plus social-icon" aria-hidden="true"></i></a>
+								<a href="#"><i class="fa fa-twitter social-icon" aria-hidden="true"></i></a>
+								<a href="#"><i class="fa fa-instagram social-icon" aria-hidden="true"></i></a>
+							</div>
+						</div>
+					</div>
+					<!-- Footer Download -->
+					<div class="col-md-6 col-lg-4">
+						<div class="footer-download" data-aos="fade-up">
+							<h1 class="footer-download-h1 f-common-h1 text-uppercase">Download</h1>
+							<p class="footer-download-p f-common-mt">Quisque sollicitudin feugiat risus, eu posuere ex euismod eu. Phasellus hendrerit.</p>
+							<div class="f-download-link">
+								<a href="#" class="f-download-link-a d-flex">
+									<h3 class="f-download-link-h3">Android Users</h3>
+									<i class="fa fa-android user-icon icon-left-1" aria-hidden="true"></i>
+								</a>
+
+								<a href="#" class="f-download-link-a f-d-link-mt d-flex">
+									<h3 class="f-download-link-h3">IOS Users</h3>
+									<i class="fa fa-apple user-icon icon-left-2" aria-hidden="true"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+					<!-- Footer Contact -->
+					<div class="col-md-6 col-lg-4">
+						<div class="footer-contact" data-aos="fade-left">
+							<h1 class="footer-contact-h1 f-common-h1 text-uppercase">Contact</h1>
+							<div class="footer-contact-info f-common-mt">
+								<div class="address d-flex">
+									<i class="fa fa-map-marker map-icon f-common-icon" aria-hidden="true"></i>
+									<p class="address-p">+123, Main Street, Your City, New York, USA 789456</p>
+								</div>
+								<div class="number contact-info-mt d-flex">
+									<i class="fa fa-mobile mobile-icon f-common-icon" aria-hidden="true"></i>
+									<p class="number-p">+123 4567 8900</p>
+								</div>
+								<div class="email contact-info-mt d-flex">
+									<i class="fa fa-envelope envelope-icon f-common-icon" aria-hidden="true"></i>
+									<p class="email-p">free@psdfreebies.com</p>
+								</div>
+								<div class="website contact-info-mt d-flex">
+									<i class="fa fa-mouse-pointer pointer-icon f-common-icon" aria-hidden="true"></i>
+									<a href="#" class="website-a">www.psdfreebies.com</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Footer Bottom -->
+		<div class="footer-bottom text-center">
+			<p class="footer-bottom-p">Copyright © 2021 Sudipta Mrong</p>
+		</div>
+	</footer>
+	<!-- Footer End -->
+
+
+
+
+	
+
+
+
+
+	<!-- AOS Js -->
+	<script src="js/aos.js"></script>
+	<!-- Swiper Js -->
+	<script src="js/swiper-bundle.min.js"></script>
+	<!-- Bootsrtap Js -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Popper Js -->
+	<script src="js/popper.min.js"></script>
+	<!-- Jquery Js -->
+	<script src="js/jquery-3.6.0.min.js"></script>
+	<!-- Custom Script Js -->
+	<script src="js/script.js"></script>
+</body>
+</html>
+
+
+

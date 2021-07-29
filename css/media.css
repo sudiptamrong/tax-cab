@@ -1,0 +1,492 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+    /* Common Start */
+    button {
+        font-size: 25px;
+        
+    }
+    /* Common End */
+
+    /* Header Start */
+    .container-fluid {
+        padding-right: var(--bs-gutter-x,.75rem);
+        padding-left: var(--bs-gutter-x,.75rem);
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link{
+        text-align: center;
+    }
+
+    .navbar-nav{
+        background-color: rgba(0,0,0,.9);
+    }
+
+    .nav-link {
+        font-size: 15px;
+    }
+
+    .navbar-toggler {
+        padding: .1rem .2rem;
+    }
+
+    .navbar{
+        padding-top: 15px;
+    }
+
+    .navbar-brand{
+        width: 7rem;
+    }
+
+    .sticky{
+        padding-top: 5px;
+    }
+
+    .sticky .navbar-nav{
+        background-color: transparent;
+    }
+
+    .sticky .navbar-brand{
+        width: 6rem;
+    }
+    /* Header End */
+
+    /* Banner Start */
+    .banner-content .bc-h2{
+        font-size: 25px;
+    }
+    
+    .banner-content .bc-h1{
+        font-size: 38px;
+    }
+    /* Banner End */
+
+    /* About Start */
+    .about {
+        padding: 80px 0 60px;
+    }
+
+    .booking-form {
+        margin-top: 60px;
+        width: 100%;
+    }
+
+    .about-content-h2 {
+        font-size: 30px;
+    }
+
+    .about-content-h3 {
+        margin-bottom: 30px;
+        font-size: 42px;
+    }
+
+    .form-control, .form-select{
+        font-size: 18px;
+    }
+    /* About End */
+
+    /* Tariffs Start */
+    .tariffs{
+        padding: 60px 0;
+    }
+
+    .tariffs-box {
+        padding: 20px 15px;
+    }
+
+    .tariffs-box-content {
+        margin-top: -60px;
+    }
+
+    .tariffs-content-h1 {
+        margin-bottom: 15px;
+    }
+
+    .tariff-mt-2{
+        margin-top: 7rem;
+    }
+
+    .tariff-mt-3{
+        margin-top: 7rem;
+    }
+    /* Tariffs End */
+
+    /* Features Start */
+    .features{
+        padding: 60px 0;
+    }
+
+    .features-content {
+        margin-top: 60px;
+    }
+
+    .box-mt-2, .box-mt-3, .box-mt-4{
+        margin-top: 40px;
+    }
+
+    .feature-box-left {
+        margin-right: 20px;
+    }
+    /* Features End */
+
+    /* Download Start */
+    .download {
+        padding: 60px 0;
+    }
+
+    .download-details {
+        margin-top: 40px;
+    }
+
+    .download-link {
+        display: flex;
+        justify-content: center;
+    }
+
+    .link-img-mr {
+        margin-right: 10px;
+    }
+
+    .download-link-img {
+        width: 9rem;
+    }
+    /* Download End */
+
+    /* Testimonial Start */
+    .testimonial{
+        padding: 60px 0;
+    }
+
+    .swiper-slide {
+        padding: 30px 30px;
+    }
+    /* Testimonial End */
+
+    /* Contacts Start */
+    .contacts{
+        padding: 60px 0;
+    }
+
+    .contact-info-h2 {
+        font-size: 24px;
+    }
+
+    .contact-info-h1 {
+        margin-top: 10px;
+        font-size: 38px;
+    }
+    /* Contacts End */
+
+    /* Footer Start */
+    .footer{
+        padding: 60px 0 0;
+    }
+
+    .footer-bottom{
+        margin-top: 60px;
+    }
+
+    .footer-contact, .footer-download{
+        margin-top: 60px;
+    }
+    /* Footer End */
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    /* Header Start */
+    .container-fluid {
+        padding-right: var(--bs-gutter-x,2rem);
+        padding-left: var(--bs-gutter-x,2rem);
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link{
+        text-align: center;
+    }
+
+    .navbar-nav{
+        background-color: rgba(0,0,0,.9);
+    }
+
+    .nav-link {
+        font-size: 15px;
+    }
+
+    .banner-content .bc-h2{
+        font-size: 34px;
+    }
+
+    .banner-content .bc-h1{
+        font-size: 60px;
+    }
+
+    .sticky .navbar-nav{
+        background-color: transparent;
+    }
+
+    .sticky .navbar-brand{
+        width: 7rem;
+    }
+    /* Header End */
+
+    /* About Start */
+    .booking-form{
+        margin-top: 80px;
+    }
+    /* About End */
+
+    /* About Start */
+    .booking-form{
+        width: 90%;
+    }
+    /* About Start */
+
+    /* Tariffs Start */
+    .tariffs-content {
+        margin-top: 100px;
+    }
+
+    .tariffs-box {
+        padding: 20px 15px;
+    }
+
+    .tariffs-box-content {
+        margin-top: -60px;
+    }
+
+    .tariffs-content-h1 {
+        margin-bottom: 15px;
+    }
+
+    .tariffs-content-h2 {
+        margin: 20px 0;
+    }
+
+    .tariff-mt-3{
+        margin-top: 4.5rem;
+    }
+    /* Tariffs End */
+
+    /* Features Start */
+    .box-mt-2{
+        margin-top: 70px;
+    }
+    /* Features End */
+
+    /* Download Start */
+    .download {
+        padding: 80px 0;
+    }
+
+    .download-details {
+        margin-top: 40px;
+    }
+
+    .download-link {
+        display: flex;
+        justify-content: center;
+    }
+
+    .link-img-mr {
+        margin-right: 10px;
+    }
+
+    .download-link-img {
+        width: 10rem;
+    }
+    /* Download End */
+
+    /* Testimonial Start */
+    .swiper-container {
+        max-width: 540px;
+    }
+
+    .swiper-slide {
+        padding: 30px 30px;
+    }
+    /* Testimonial End */
+
+    /* Contacts Start */
+    .contact-info-h2 {
+        font-size: 30px;
+    }
+
+    .contact-info-h1 {
+        font-size: 60px;
+    }
+    /* Contacts End */
+
+    /* Footer Start */
+    .footer-contact, .footer-download{
+        margin-top: 80px;
+    }
+    /* Footer End */
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {  
+    /* Header Start */
+    .navbar-expand-lg .navbar-nav .nav-link{
+        text-align: center;
+    }
+
+    .navbar-nav{
+        background-color: rgba(0,0,0,.9);
+    }
+
+    .sticky .navbar-nav{
+        background-color: transparent;
+    }
+
+    .sticky .navbar-brand{
+        width: 7rem;
+    }
+    /* Header End */
+
+    /* About Start */
+    .booking-form{
+        margin-top: 80px;
+    }
+    /* About End */
+
+    /* Tariffs Start */
+    .tariffs-content {
+        margin-top: 110px;
+    }
+
+    .tariff-mt-3 {
+        margin-top: 5.5rem;
+    }
+    /* Tariffs End */
+
+    /* Features Start */
+    .feature-box-left {
+        margin-right: 22px;
+    }
+    /* Features End */
+
+    /* Download Start */
+    .download-details {
+        margin-top: 40px;
+    }
+
+    .link-img-mr {
+        margin-right: 10px;
+    }
+
+    .download-link-img {
+        width: 10rem;
+    }
+    /* Download End */
+    
+    /* Testimonial Start */
+    .swiper-container {
+        max-width: 720px;
+    }
+    /* Testimonial End */
+
+    /* Footer Start */
+    .footer-contact{
+        margin-top: 80px;
+    }
+    /* Footer End */
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    /* Header Start */
+    .container-fluid{
+        padding-left: var(--bs-gutter-x,1.87rem);
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+
+    .sticky .navbar-brand{
+        width: 7rem;
+    }
+    /* Header End */
+
+    /* About Start */
+    .booking-form{
+        width: 90%;
+    }
+    /* About Start */
+
+    /* Tariffs Start */
+    .tariffs-content {
+        margin-top: 105px;
+    }
+
+    .tariffs-box {
+        padding: 20px 17px;
+    }
+
+    .tariffs-content-h1 {
+        margin-bottom: 20px;
+    }
+
+    .tariffs-content-h2 {
+        margin: 30px 0;
+    }
+    /* Tariffs End */
+
+    /* Testimonial Start */
+    .swiper-container {
+        max-width: 960px;
+    }
+    /* Testimonial End */
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+    /* Header Start */
+    .container-fluid{
+        padding-left: var(--bs-gutter-x,1.87rem);
+    }
+
+    .sticky .navbar-brand{
+        width: 7rem;
+    }
+    /* Header End */
+
+    /* About Start */
+    .booking-form{
+        width: 80%;
+    }
+    /* About Start */
+
+    /* Tariffs Start */
+    .tariffs-content {
+        margin-top: 110px;
+    }
+    /* Tariffs End */
+
+    /* Testimonial Start */
+    .swiper-container {
+        max-width: 1140px;
+    }
+    /* Testimonial End */
+}
+
+/*Extra Extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px){ 
+    /* Header Start */
+    .container-fluid{
+        padding-left: var(--bs-gutter-x,1.87rem);
+    }
+    /* Header End */
+
+
+    /* Testimonial Start */
+    .swiper-container {
+        max-width: 1320px;
+    }
+    /* Testimonial End */
+}
+
+
+
+
+
